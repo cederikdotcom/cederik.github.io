@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Nims Framework</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .container { text-align: center; padding: 50px; }
+        .subline { font-size: 1.5em; color: #555; }
+        .carousel { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>The Nims Framework</h1>
+        <div class="carousel">
+            <div class="subline" id="subline">Augment your workforce</div>
+        </div>
+        <section>
+            <h2>What is The Nims Framework?</h2>
+            <p>The Nims Framework is a cutting-edge methodology designed to create "phygital" (physical + digital) wrappers around humans. This approach seamlessly integrates technology and human roles, ensuring clear responsibilities and enhanced performance across various contexts.</p>
+            <h2>How It Works</h2>
+            <ul>
+                <li><strong>Phygital Integration:</strong> We blend physical and digital tools to optimize human roles and interactions.</li>
+                <li><strong>Clear Roles & Responsibilities:</strong> Define and manage roles with precision, ensuring everyone knows their function and how to excel in it.</li>
+                <li><strong>Enhanced Performance:</strong> Leverage our framework to boost efficiency and effectiveness, whether in the workplace, at home, or within teams.</li>
+            </ul>
+            <h2>Benefits</h2>
+            <ul>
+                <li><strong>Workforce:</strong> Streamline operations and boost productivity.</li>
+                <li><strong>Household:</strong> Organize and enhance domestic life.</li>
+                <li><strong>Team:</strong> Foster collaboration and improve team dynamics.</li>
+                <li><strong>You:</strong> Personalize your growth and performance.</li>
+            </ul>
+        </section>
+        <footer>
+            <p><a href="#contact">Discover How The Nims Framework Can Transform Your [Workplace/Household/Team/Personal Life] Today!</a></p>
+        </footer>
+    </div>
+    <script>
+        const sublines = [
+            'Augment your workforce',
+            'Augment your household',
+            'Augment your team',
+            'Augment you'
+        ];
+        let index = 0;
+        const sublineElement = document.getElementById('subline');
+        function changeSubline() {
+            index = (index + 1) % sublines.length;
+            sublineElement.textContent = sublines[index];
+        }
+        setInterval(changeSubline, 3000); // Change every 3 seconds
+    </script>
+</body>
+</html>
