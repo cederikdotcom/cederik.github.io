@@ -4,7 +4,7 @@ There are certain traits that make us human. Luis Bravo Martins shared a source 
 
 https://humanjourney.us/ancestors/human-universals/detailed-list/
 
-I ran the list through GPT4o on 7th of October 2024. These are the traits AI doesn't have.
+I ran the list through GPT4o on 7th of October 2024. This was it's answer.
 
 Count of traits I do not have: 61
 
